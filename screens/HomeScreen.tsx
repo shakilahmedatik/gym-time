@@ -8,7 +8,7 @@ import WorkoutItem from '../components/WorkoutItem'
 const HomeScreen = ({ navigation }: NativeStackHeaderProps) => {
   return (
     <View style={styles.container}>
-      <Text>I am home component</Text>
+      <Text style={styles.header}>Workout List</Text>
       <FlatList
         data={data as Workout[]}
         renderItem={WorkoutItem}
@@ -21,6 +21,12 @@ const HomeScreen = ({ navigation }: NativeStackHeaderProps) => {
 const styles = StyleSheet.create({
   container: {
     padding: 20,
+    flex: 1,
+  },
+  header: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginBottom: 15,
   },
 })
 
