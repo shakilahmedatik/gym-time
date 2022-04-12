@@ -1,4 +1,3 @@
-
 export type Difficulty = "easy" | "normal" | "hard"
 export type SequenceType = "exercise" | "break" | "stretch"
 
