@@ -24,3 +24,22 @@ export function formatSec(sec: number) {
 
   return sentence.join(' ')
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
