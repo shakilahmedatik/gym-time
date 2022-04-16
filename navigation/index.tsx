@@ -59,3 +59,22 @@ const BottomTabNavigator = () => {
   )
 }
 export default Navigation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
