@@ -26,4 +26,3 @@ const styles = StyleSheet.create({
   difficulty: { fontSize: 15 },
 })
 
-
