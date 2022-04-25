@@ -17,4 +17,3 @@ export interface SequenceItem {
     duration: number
 }
 
-
